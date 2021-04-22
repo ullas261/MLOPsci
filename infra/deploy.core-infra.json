@@ -558,8 +558,7 @@
           "remoteLoginPortPublicAccess": "Enabled"
         }
       }
-    } 
-    ,
+    },
     {
        "condition": "[equals(parameters('dataLakeNewOrExisting'), 'new')]",
        "type": "Microsoft.Storage/storageAccounts",
