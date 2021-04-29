@@ -71,7 +71,7 @@
     },
     "keyVaultName": {
       "type": "string",
-      "defaultValue": "[concat('Kt',uniqueString(resourceGroup().id))]"
+      "defaultValue": "[concat('Tv',uniqueString(resourceGroup().id))]"
     },
     "keyVaultResourceGroupName": {
       "type": "string",
